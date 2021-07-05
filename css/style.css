@@ -33,6 +33,10 @@ body {
     padding-left: 30px;
 }
 
+.logo img {
+    width: 100px;
+}
+
 .menu ul li {
     display: inline-block;
 }
@@ -55,15 +59,11 @@ body {
     text-decoration: none;
     color: #fff;
     padding-left: 20px;
+    font-size: 15px;
 }
 
-.menu ul :hover {
-    border-bottom: 3px solid #fff;
-}
-
-.logo img {
-    width: 100px;
-    ;
+.menu ul li:hover {
+    border-bottom: 2px solid #fff;
 }
 
 
