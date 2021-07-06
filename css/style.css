@@ -9,7 +9,7 @@ body {
 
 .word {
     color: blue;
-    text-shadow: 10px 10px 50px rgb(17, 17, 17);
+    text-shadow: 2px 2px 5px grey;
 }
 
 .container {
