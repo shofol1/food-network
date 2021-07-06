@@ -141,67 +141,53 @@ body {
 
 /*card section*/
 
-.upper {
-    text-align: center;
-    width: 600px;
-    margin: 0 auto;
-}
-
-.upper h1 {
-    font-size: 54px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-.upper p {
-    color: grey;
-    padding-bottom: 40px;
-    font-weight: 300;
-}
-
 .food-card {
-    padding-bottom: 30px;
+    padding: 50px 0;
 }
 
-.flex-box {
+.food-upper {
+    padding: 50px 300px;
+}
+
+.food-upper p {
+    line-height: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.food-card h1 {
+    font-size: 54px;
+    text-align: center;
+}
+
+.food-card p {
+    padding: 40px;
+    line-height: 24px;
+}
+
+.flexiable-container {
     display: flex;
 }
 
-.food-title {
-    margin-left: 20px;
-    padding-bottom: 20px;
-}
-
-.lower {
-    margin: 0 auto;
-}
-
-.card {
-    margin-right: 20px;
-    margin-left: 60px;
-    text-align: justify;
-    background-color: #fff;
-    box-shadow: 10px 10px 30px gray;
+.card-item img {
+    width: 350px;
     border-radius: 20px;
 }
 
-.card:hover {
-    box-shadow: 20px 20px 40px gray;
-}
-
-.card p {
-    color: grey;
-    font-weight: 300;
-    text-align: left;
-    line-height: 24px;
-    padding: 0px 20px;
-    padding-bottom: 60px;
-}
-
-.card img {
-    width: 341px;
-    padding-bottom: 20px;
+.card-item {
+    width: 33.33%;
+    box-shadow: 20px 20px 40px grey;
+    margin-left: 30px;
+    margin-right: 40px;
     border-radius: 20px;
+}
+
+.card-item:hover {
+    box-shadow: 30px 30px 50px grey;
+}
+
+.center {
+    text-align: center;
 }
 
 
@@ -287,6 +273,7 @@ footer h2 {
 footer p {
     font-size: 14px;
     white-space: 10px;
+    padding-bottom: 10px;
 }
 
 footer a {
