@@ -8,9 +8,8 @@ body {
 }
 
 .word {
-    background: -webkit-linear-gradient(blue, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: blue;
+    text-shadow: 10px 10px 50px rgb(17, 17, 17);
 }
 
 .container {
@@ -282,13 +281,9 @@ footer p {
 
 footer a {
     text-decoration: none;
-    background: -webkit-linear-gradient(rgb(192, 192, 192), rgb(100, 100, 100));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: grey;
 }
 
 .word1 {
-    background: -webkit-linear-gradient(rgb(192, 192, 192), rgb(100, 100, 100));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: blue;
 }
