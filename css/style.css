@@ -172,6 +172,10 @@ body {
     padding-bottom: 20px;
 }
 
+.lower {
+    margin: 0 auto;
+}
+
 .card {
     margin-right: 20px;
     margin-left: 60px;
@@ -195,7 +199,7 @@ body {
 }
 
 .card img {
-    width: 340px;
+    width: 341px;
     padding-bottom: 20px;
     border-radius: 20px;
 }
@@ -231,7 +235,7 @@ body {
 /*form*/
 
 .form {
-    width: 100%;
+    width: 1163px;
     text-align: center;
     background-image: url(../images/frame1.jpg);
     background-repeat: no-repeat;
